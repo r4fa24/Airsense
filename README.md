@@ -1,26 +1,30 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# air_sense
+# AirSense 🌍
 
-A new Flutter project.
+**Real-time air quality monitoring and crowdsourced reporting for the UAE.**
 
-## Getting Started
+AirSense is a Flutter-based mobile application that tracks, visualizes, and analyzes air quality across the UAE in real time. Built as a prototype, it connects individuals and government authorities through a shared platform for air quality awareness and pollution reporting.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Live AQI Tracking** — Real-time Air Quality Index and pollutant data based on device GPS location
+- **Interactive Map** — Color-coded AQI markers and live charts comparing air quality across multiple UAE regions, powered by OpenStreetMap
+- **Multi-Portal System** — Separate, secure portals for Individual and Government users with Firebase authentication
+- **Crowdsourced Hazard Reporting** — Users can report pollution sources (e.g. construction activity) with automatic geolocation tagging
+- **Alerts & Notifications** — Authorities can push air quality alerts directly to users
+- **Eco-Reward Points** — Gamified system encouraging community participation in environmental reporting
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Airsense
-App that keeps the air safe to breathe
->>>>>>> 270b5b2e82cd9f0d22673416c911d598b7d3573a
-=======
-AIR SENSE
->>>>>>> 5825b390b881ef57c6bc4098ade5e4118e5c556d
+- **Frontend:** Flutter (Dart)
+- **Backend / Auth / Storage:** Firebase
+- **Maps:** OpenStreetMap (via `flutter_map`)
+- **Platform:** Tested on Flutter emulator (prototype stage)
+
+## 📱 Status
+
+This is a **functional prototype**, built and tested on a Flutter emulator. It is not currently deployed to production.
+
+## 🎯 Motivation
+
+Air quality is a growing concern in rapidly urbanizing regions like the UAE. AirSense was built to bridge the gap between individuals who want visibility into their local air quality and government bodies who need real-time, crowdsourced data to respond to pollution events faster.
+
